@@ -45,7 +45,7 @@
 }
 
 .blog-post{
-  display: flex;
+  display: grid;
   justify-content: center;
   background-color: rgb(239, 239, 239);
   border-radius: 2px;
@@ -77,4 +77,26 @@
 a{
   text-decoration: none;
   color: rgb(110, 122, 183);
+}
+
+input{
+  border-radius: 2px;
+  border-color: rgb(200, 200, 200);;
+}
+
+button {
+  font-size: 16px;
+  background-color: #555555;
+  color: white;
+  border: 2px solid #555555;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+button:hover {
+  background-color: white;
+  color: #555555;
 }

@@ -11,15 +11,21 @@
   <h1 class="navbar">
     <span>Blog</span>
     <span class="navbar-right">
-      <a href="file:///D:/Nanodegree%20Project%201/html/blog-website-home.html">HOME</a>
-      <a href="file:///D:/Nanodegree%20Project%201/html/about-us.html">ABOUT US</a>
-      <a href="file:///D:/Nanodegree%20Project%201/html/subscribe.html">SUBSCRIBE</a>
-      <a href="file:///D:/Nanodegree%20Project%201/html/contact-us.html">CONTACT US</a>
+      <a href="/">HOME</a>
+      <a href="/about-us">ABOUT US</a>
+      <a href="/subscribe">SUBSCRIBE</a>
+      <a href="/contact-us">CONTACT US</a>
     </span>
   </h1>
   <div class="blog-post">
     <div class="flex-flow-column">
-      <h2>You have Subscribed Successfully!</h2>
+      <form action="/subscribed-successfully" method="post">
+        <label for="email">Email</label><br>
+        <input type="text" name="email"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password"><br><br>
+        <button type="submit" name="button">Subscribe</button>
+      </form>
     </div>
   </div>
   <h1 class="footer">
