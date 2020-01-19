@@ -1,0 +1,17 @@
+.post{
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(239, 239, 239);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.blog-post{
+  display: grid;
+  justify-content: center;
+  background-color: rgb(239, 239, 239);
+  border-radius: 2px;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
