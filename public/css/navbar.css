@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 15%;
+  padding: 20px 15%;
   min-width: 100%;
   background-color: rgb(239, 239, 239);
-  height: 100px;
+  /* height: 100px; */
   color: rgb(119, 119, 119);
   font-weight: lighter;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 70px;
+  margin-bottom: 5%;
 }
 
 .navbar-right > a{

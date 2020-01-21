@@ -9,16 +9,63 @@
   padding: 0;
 }
 
+body{
+  background-image: url(/images/janko-ferlic-specialdaddy-sfL_QOnmy00-unsplash.jpg);
+  background-size: cover;
+}
+
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
-  grid-gap: 10%;
+  grid-gap: 7%;
+  padding-bottom: 8%;
 }
 
 .flex-flow-column{
   display: flex;
   flex-flow: column;
+}
+
+@media (max-width:900px) and (min-width:555px){
+  .footer{
+    position: static;
+    margin-top: 150px;
+  }
+
+  .post{
+    margin: 0 7%;
+  }
+}
+
+@media (max-width:572px){
+  .footer{
+    position: static;
+    margin-top: 300px;
+  }
+
+  .post{
+    margin: 0 7%;
+  }
+}
+
+@media (max-width:902px) and (min-width:566px){
+  h1.ftr{
+    position: fixed;
+    bottom: 0;
+  }
+
+  .blog-post{
+    margin-bottom: 400px;
+  }
+}
+
+h2{
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+  color: #DAA520;
 }
 
 a{
