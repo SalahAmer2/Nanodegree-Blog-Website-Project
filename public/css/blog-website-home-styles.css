@@ -27,7 +27,18 @@ body{
   flex-flow: column;
 }
 
-@media (max-width:900px) and (min-width:555px){
+@media (max-width:900px){
+  .footer{
+    position: static;
+    margin-top: 200px;
+  }
+
+  .post{
+    margin: 0 7%;
+  }
+}
+
+/* @media (max-width:900px) and (min-width:555px){
   .footer{
     position: static;
     margin-top: 150px;
@@ -36,9 +47,9 @@ body{
   .post{
     margin: 0 7%;
   }
-}
+} */
 
-@media (max-width:572px){
+/* @media (max-width:572px){
   .footer{
     position: static;
     margin-top: 300px;
@@ -47,9 +58,9 @@ body{
   .post{
     margin: 0 7%;
   }
-}
+} */
 
-@media (max-width:902px) and (min-width:566px){
+/* @media (max-width:902px) and (min-width:566px){
   h1.ftr{
     position: fixed;
     bottom: 0;
@@ -58,7 +69,7 @@ body{
   .blog-post{
     margin-bottom: 400px;
   }
-}
+} */
 
 h2{
   font-weight: bold;
