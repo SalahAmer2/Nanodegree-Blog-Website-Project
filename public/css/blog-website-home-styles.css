@@ -52,6 +52,11 @@ a{
   color: rgb(110, 122, 183);
 }
 
+.navbar-right > a:hover{
+  color: #DAA520;
+  transform: scale(1.2);
+}
+
 input{
   border-radius: 2px;
   border-color: rgb(200, 200, 200);;
